@@ -1,0 +1,30 @@
+
+.App{
+  font-family: Gilroy;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  color: aliceblue;
+  background: #120E43;
+}
+button{
+  font-family: Gilroy;
+  cursor: pointer;
+  color: white;
+  padding: 5px 15px;
+  margin: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
+  width: 300px;
+  border-radius: 15px;
+  background:#5DA3FA;
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  animation-duration: 2s;
+}
